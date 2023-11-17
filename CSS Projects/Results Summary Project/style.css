@@ -1,0 +1,62 @@
+body {
+    font-family: 'Hanken Grotesk';
+    font-weight: bold;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/*---------Left Layout----------*/
+.content-result {
+    color: white;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 20px;
+}
+.result-text {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.7);    
+}
+
+.score-box {
+    display: inline-block;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 200px;
+    padding: 20px;
+    width: 40%;
+}
+
+.score-box h1 {
+    font-size: 80px;
+    margin: 0px;
+    padding: 0px;
+}
+.score-box h3 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.great-text {
+    margin-bottom: 10px;
+}
+.bottom-text {
+    width: 300px;
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/*---------Right Layout----------*/
+.summary-text {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
