@@ -7,18 +7,26 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start;    
+    background-color: hsl(241, 100%, 89%, 0.3);
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(200, 200, 200), -2px -2px 10px rgb(200, 200, 200);
+    max-width: 700px;
+    margin: auto;
+    margin-top: 200px;    
 }
 
 /*---------Left Layout----------*/
 .content-result {
     color: white;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
     display: inline-block;
     text-align: center;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
+    margin-right: 20px;
 }
 .result-text {
     margin-top: 0px;
@@ -56,7 +64,79 @@ body {
 }
 
 /*---------Right Layout----------*/
+.content-summary {
+    padding: 10px;
+}
+.summary-text {
+    color: hsl(224, 30%, 27%);
+}
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px; 
+
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.result-reaction {
+    color: hsl(0, 100%, 67%);
+    background-color: hsla(0, 100%, 67%, 0.2);
+}
+.result-memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsla(39, 100%, 56%, 0.2);
+}
+.result-verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.2);
+}
+.result-visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.2);
+}
+
+.score{
+    padding-right: 12px;
+    color: hsl(224, 30%, 27%);
+}
 .summary-text {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+img {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.content-summary h3 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.score {
+    margin-right: 0px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    border-style: none;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    width: 100%;
+    border-radius: 100px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: hsl(224, 30%, 27%, 0.3);
+    color: hsl(224, 30%, 27%);
 }
