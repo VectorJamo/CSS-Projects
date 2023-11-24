@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    font-weight: 100 900;
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
     font-family: 'Hanken Grotesk';
-    font-weight: bold;
 }
 
 .layout {
